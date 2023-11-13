@@ -4,18 +4,19 @@ html{
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: #000050;
 }
-#calculator-grid{
+#gridCalculator{
     border: solid black 2px;
     padding: 2%;
     height: 75vh;
-    width: 45vh;
+    width: 50vh;
     text-align: center;
     align-items: center;
     align-content: center;
 }  
 #output{
-    width: 40vh;
+    width: 48vh;
     height: 15vh;
     text-align: center;
     align-items: center;
@@ -36,4 +37,10 @@ button{
     height: 50px;
     color: floralwhite;
     background-color: #000030;
+    font-size: large;
+}
+button:hover{
+    font-size: x-large;
+    color: #000030;
+    background-color: floralwhite;
 }
