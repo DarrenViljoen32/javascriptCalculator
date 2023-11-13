@@ -1,0 +1,39 @@
+html{
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#calculator-grid{
+    border: solid black 2px;
+    padding: 2%;
+    height: 75vh;
+    width: 45vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}  
+#output{
+    width: 40vh;
+    height: 15vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-color: #000030;
+    color: floralwhite;
+}
+table{
+    width: 40vh;
+    height: 50vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+}
+button{
+    width: 70px;
+    height: 50px;
+    color: floralwhite;
+    background-color: #000030;
+}
